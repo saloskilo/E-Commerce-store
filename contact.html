@@ -1,22 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saloskilo Ecommerce Website</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+  <body>
+    <!-- header  -->
+    <section id="header">
+      <a href="#">
+        <img width="100px" class="logo" src="img/logo.png" alt="logo"
+      /></a>
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a  href="shop.html">Shop</a></li>
+          <li><a  href="blog.html">Blog</a></li>
+          <li><a  href="about.html">About</a></li>
+          <li><a class="active" href="contact.html">Contact</a></li>
+          <li id="lg-bag">
+            <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+          </li>
+          <a href="#" id="close"><i class="far fa-times"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+        <i id="bar" class="fas fa-outdent"></i>
+      </div>
+    </section>
 
-        <link rel="stylesheet" href="style.css">
-    </head>
+    <!-- hero section  -->
+    <section id="page-header" class="about-header">
+      <h2>#Lets_Talk</h2>
+      <p>Leave a Message! </p>
+    </section>
 
-    <body>
+    <!-- map and details  -->
+    <section id="contact-details" class="section-p1">
+        <div class="details">
+            <span>Get in touch</span>
+            <h2>Visit one our agency location or contact us Today</h2>
+            <h3>Head Office</h3>
+            <div>
+                <li>
+                    <i class="fal fa-map"></i>
+                    <p>Clifton Block 1 Karachi</p>
+                </li>
+                <li>
+                    <i class="fal fa-envelope"></i>
+                    <p>salmanafridi945@gmail.com</p>
+
+                </li>
+                <li>
+                    <i class="fal fa-phone-alt"></i>
+                    <p>+923022606945</p>
+
+                </li>
+                <li>
+                    <i class="fal fa-map"></i>
+                    <p>Monday to Saturday: 9:00am to 5:00pm</p>
+
+                </li>
+            </div>
+        </div>
+
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24362.129857899785!2d66.99182762731702!3d24.814202355410277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33d89925150db%3A0x4faebdaf62f40f77!2sBlock%201%20Clifton%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1722447780695!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+   
+    <!-- Contact Form  -->
+    <section id="form-details"  class="section-p1">
+        <form action="">
+            <span>Leave a Message</span>
+            <h2>We love to hear from you</h2>
+            <input type="text" name="" id="" placeholder="Your Name">
+            <input type="text" name="" id="" placeholder="Email">
+            <input type="text" name="" id="" placeholder="Subject">
+            <textarea name="" id="" rows="10" cols="30" placeholder="Your Message"></textarea>
+            <button class="normal">Submit</button>
+        </form>
+
+        <div class="people">
+            <div >
+                <img src="img/people/1.png" alt="pa">
+                <p><span>Ali</span>Senior Marketing Manager <br>923322606945 <br>Email: info@saloskilo.com</p>
+            </div>
+        
+
+        <div class="people">
+            <div >
+                <img src="img/people/2.png" alt="pa">
+                <p><span>Ali</span>Senior Marketing Manager <br>923322606945 <br>Email: info@saloskilo.com</p>
+            </div>
+        </div>
+        <div class="people">
+            <div >
+                <img src="img/people/3.png" alt="pa">
+                <p><span>Ali</span>Senior Marketing Manager <br>923322606945 <br>Email: info@saloskilo.com</p>
+            </div>
+        </div>
+    </div>
+    </section>
 
 
-        <script src="script.js"></script>
+     <!-- newsletter  -->
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+          <h4>Sign Up For newsletters</h4>
+          <p>
+            Get E-mail updates about latest shop and <span>special offers.</span>
+          </p>
+        </div>
+        <!-- form  -->
+        <div class="form">
+          <input type="text" placeholder="Your email address" />
+          <button class="normal">Sign Up</button>
+        </div>
+    </section>
+  
 
-    </body>
+    <!-- footer  -->
+    <footer class="section-p1">
+      <div class="col">
+        <img class="logo" src="img/logo.png" alt="logo" />
+        <h4>Contact</h4>
+        <p><strong>Address: </strong> Clifton Block 1 Karachi</p>
+        <p><strong>Phone: </strong> 03022606945</p>
+        <p><strong>Hours: </strong> 9:00 AM - 5:00 PM, Mon - Fri</p>
+        <div class="follow">
+          <h4>Follow Us</h4>
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-youtube"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-whatsapp"></i>
+          <i class="fab fa-github"></i>
+        </div>
+      </div>
 
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delievery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+      </div>
+
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+
+      <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+          <img src="img/pay/app.jpg" alt="app" />
+          <img src="img/pay/play.jpg" alt="play" />
+        </div>
+        <p>Secured Payment Gateway</p>
+        <img src="img/pay/pay.png" alt="pay" />
+      </div>
+
+      <div class="copyright">
+        <p>2024, saloskilo HTML, CSS Ecommerce Template</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>

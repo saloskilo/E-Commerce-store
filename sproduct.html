@@ -1,25 +1,282 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saloskilo Ecommerce Website</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Tech2etc Ecommerce Tutorial</title>
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-        <link rel="stylesheet" href="style.css">
-    </head>
+  <body>
+    <!-- header  -->
+    <section id="header">
+      <a href="#">
+        <img width="100px" class="logo" src="img/logo.png" alt="logo"
+      /></a>
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li id="lg-bag">
+            <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+          </li>
+          <a href="#" id="close"><i class="far fa-times"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+        <i id="bar" class="fas fa-outdent"></i>
+      </div>
+    </section>
 
-    <body>
+    <!-- Detail of the Product  -->
+    <section id="prodetails" class="section-p1">
+      <div class="single-pro-image">
+        <img src="img/products/f1.jpg" width="100%" id="mainimg" alt="f1" />
 
+        <div class="small-img-group">
+          <div class="small-img-col">
+            <img
+              width="100%"
+              class="small-img"
+              src="img/products/f2.jpg"
+              alt="f1"
+            />
+          </div>
+          <div class="small-img-col">
+            <img
+              width="100%"
+              class="small-img"
+              src="img/products/f3.jpg"
+              alt="f1"
+            />
+          </div>
+          <div class="small-img-col">
+            <img
+              width="100%"
+              class="small-img"
+              src="img/products/f4.jpg"
+              alt="f1"
+            />
+          </div>
+          <div class="small-img-col">
+            <img
+              width="100%"
+              class="small-img"
+              src="img/products/f5.jpg"
+              alt="f1"
+            />
+          </div>
+        </div>
+      </div>
 
-        <script>
-            // script for image change on click
-        </script>
+      <div class="single-pro-details">
+        <h6>Home / T-Shirt</h6>
+        <h4>Men's Fashion T-Shirt</h4>
+        <h2>$76.00</h2>
+        <select name="" id="">
+            <option value="">Select Size</option>
+            <option value="">XL</option>
+            <option value="">XXL</option>
+            <option value="">Small</option>
+            <option value="">Large</option>
 
+        </select>
+        <input type="number" value="1">
+        <button class="normal">Add to Cart</button>
+        <h4>Product Details</h4>
+        <span>Digital Printed & Chikankari Lawn Front 1.17 Meter Digital Printed Lawn Back  1.17 Meter Digital Printed Lawn Sleeves 0.65 Meter Embroidered Organza Front Daman 01-Piece Embroidered Organza Front Daman Border 0.8 Meter Embroidered Organza Sleeves Border 01-Meter Digital Printed Voile Dupatta  2.5 Meter Solid Dyed Cambric Trouser 2.5 Meter</span>
+      </div>
+    </section>
 
-        <script src="script.js"></script>
-    </body>
+    <!-- New Arrivals  -->
+    <section id="product1" class="section-p1">
+        <h2>Featured Products</h2>
+        <p>Summar Collections New Modern Design</p>
+        <div class="pro-container">
+          <div class="pro">
+            <img src="img/products/n1.jpg" alt="p1" />
+            <div class="des">
+              <span>Adidas</span>
+              <h5>Cartoon Astronaut T-Shirts</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>$76</h4>
+            </div>
+            <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+          </div>
+          <div class="pro">
+            <img src="img/products/n2.jpg" alt="p1" />
+            <div class="des">
+              <span>Adidas</span>
+              <h5>Cartoon Astronaut T-Shirts</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>$76</h4>
+            </div>
+            <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+          </div>
+          <div class="pro">
+            <img src="img/products/n3.jpg" alt="p1" />
+            <div class="des">
+              <span>Adidas</span>
+              <h5>Cartoon Astronaut T-Shirts</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>$76</h4>
+            </div>
+            <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+          </div>
+          <div class="pro">
+            <img src="img/products/n4.jpg" alt="p1" />
+            <div class="des">
+              <span>Adidas</span>
+              <h5>Cartoon Astronaut T-Shirts</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>$76</h4>
+            </div>
+            <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+          </div>
+          <div class="pro">
+            <img src="img/products/n5.jpg" alt="p1" />
+            <div class="des">
+              <span>Adidas</span>
+              <h5>Cartoon Astronaut T-Shirts</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>$76</h4>
+            </div>
+            <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+          </div>
+       
+         
+        </div>
+      </section>
 
+    <!-- newsletter  -->
+    <section id="newsletter" class="section-p1 section-m1">
+      <div class="newstext">
+        <h4>Sign Up For newsletters</h4>
+        <p>
+          Get E-mail updates about latest shop and <span>special offers.</span>
+        </p>
+      </div>
+      <!-- form  -->
+      <div class="form">
+        <input type="text" placeholder="Your email address" />
+        <button class="normal">Sign Up</button>
+      </div>
+    </section>
+
+    <!-- footer  -->
+    <footer class="section-p1">
+      <div class="col">
+        <img class="logo" src="img/logo.png" alt="logo" />
+        <h4>Contact</h4>
+        <p><strong>Address: </strong> Clifton Block 1 Karachi</p>
+        <p><strong>Phone: </strong> 03022606945</p>
+        <p><strong>Hours: </strong> 9:00 AM - 5:00 PM, Mon - Fri</p>
+        <div class="follow">
+          <h4>Follow Us</h4>
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-youtube"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-whatsapp"></i>
+          <i class="fab fa-github"></i>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delievery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+      </div>
+
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+
+      <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+          <img src="img/pay/app.jpg" alt="app" />
+          <img src="img/pay/play.jpg" alt="play" />
+        </div>
+        <p>Secured Payment Gateway</p>
+        <img src="img/pay/pay.png" alt="pay" />
+      </div>
+
+      <div class="copyright">
+        <p>2024, saloskilo HTML, CSS Ecommerce Template</p>
+      </div>
+    </footer>
+
+    <script>
+        var MainImg=document.getElementById('mainimg');
+        var smallimg=document.getElementsByClassName('small-img');
+        smallimg[0].addEventListener('click',()=>{
+            MainImg.src=smallimg[0].src;
+        })
+        smallimg[1].addEventListener('click',()=>{
+            MainImg.src=smallimg[1].src;
+        })
+        smallimg[2].addEventListener('click',()=>{
+            MainImg.src=smallimg[2].src;
+        })
+        smallimg[3].addEventListener('click',()=>{
+            MainImg.src=smallimg[3].src;
+        })
+        
+    </script>
+
+    <script src="script.js"></script>
+  </body>
 </html>
